@@ -1,3 +1,37 @@
-This nuclear medicine imaging procedure provides information about the functional status of this system (lymph vessels and lymph nodes). It was originally introduced in clinical practice for identification of the causes of peripheral edema or for characterization of patients with lymph effusions. Thus, lymphoscintigraphy has been proved to be accurate for showing disturbances of the lymphatic system, mainly in the limbs.
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage[paper=a4paper,left=3cm, right=3cm, top=2cm]{geometry}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage{biblatex} %Imports biblatex package
+\usepackage{amsmath}
+\addbibresource{minor.bib} %Import the bibliography file
+
+
+\pgfplotsset{compat = newest}
+
+
+\title{%
+\large Department of Biomedical Engineering\\
+    National Institute of Technology, Raipur}
+\author{Madhu sudhan(18111029)}
+\date{January 2022}
+
+\begin{document}
+
+\maketitle
+
+\beginIntroduction:}\textbf{This nuclear medicine imaging procedure provides information about the functional status of this system (lymph vessels and lymph nodes). It was originally introduced in clinical practice for identification of the causes of peripheral edema or for characterization of patients with lymph effusions. Thus, lymphoscintigraphy has been proved to be accurate for showing disturbances of the lymphatic system, mainly in the limbs.
 This technique reveals the major lymph vessels and demonstrates the absence or delayed lymph flow and reflux zones (backflow). Lymphoscintigraphy can reveal abnormalities of lymph uptake in nodes and can predict therapy response.
 On the other hand, its application in oncology has evolved in the last 50 years, stimulated by the recognition of the relationship of lymph node metastases to prognosis in several types of malignant tumors. Thus, nodal disease as secondary to a malignant tumor is not only a prognostic marker, because it signals disease extension, but it could also act as a reservoir of malignant cells, which might, in turn, be a source of visceral metastases.
+
+}\\ 
+    \\
+    \textbf{\textit{Keywords-Cardiovascular disease; Machine learning; Random forest }}
+\end{abstract}
+\end{document}
+
+
